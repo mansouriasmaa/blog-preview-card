@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+}
+
+/* Card style - main container */
+article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 10px 10px;
+  transition: all 0.5s;
+  width: 30%;
+  margin: 5% auto;
+  padding: 20px;
+  cursor: pointer;
+  max-width: 1440px;
+  min-width: 375px;
+}
+
+/* Hover effect for the article container */
+article:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.main-img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.learning-text {
+  font-weight: 600;
+  font-size: 15px;
+  background-color: hsl(47, 88%, 63%);
+  width: 90px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+}
+
+.date {
+  font-size: 15px;
+  letter-spacing: -0.01rem;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 21px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.title:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.description {
+  line-height: 1.5;
+  color: hsl(0, 0%, 50%);
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  display: block;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile .profile-name {
+  flex: 1;
+  padding: 10px;
+}
+
+.profile-name {
+  font-weight: 800;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 10px 0;
+}
